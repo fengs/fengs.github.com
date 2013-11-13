@@ -11,4 +11,4 @@ tags: [jekyll, MarkDown, GitHub, blog]
 
 The combination of jekyll + Markdown + Github is awesome. Minimal markup syntax to memorize. Sample site to customize. Publish as you commit. Simple enough, fair enough. The style is clean and elegant, a rare virtue seldom found among the millions of blog templates on WordPress and Blogger.
 
-Just played around with this first post using MarkDown. So far so good, and it looks go great! I'm alreay in the mood for writing the second. 
+Just played around with this first post using MarkDown. So far so good, and it looks so great! I'm alreay in the mood for writing the second. 
