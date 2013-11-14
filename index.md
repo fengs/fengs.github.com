@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Hello World!
-tagline: New Ship Launching
+title: One Infinite Loop
+tagline: Sophia Feng Blog
 ---
 
-Welcome to my site.
+Welcome to my site! Nice to meet you here. I just started blogging on GitHub this week. Rooms are there, waiting to be decorated. If I'm not greeting at the the doorstep, I must be doing some paintwork upstairs. Hi there!
 
-## Posts
+### Posts
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -14,4 +14,4 @@ Welcome to my site.
   {% endfor %}
 </ul>
 
-## More posts incoming.
+### More posts incoming.
