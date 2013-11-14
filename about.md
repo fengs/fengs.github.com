@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: page
 title: "About"
 description: ""
 group: navigation
 ---
+{ %include JB/setup %}
 
 My name is Sophia Shi Feng. I'm living in bay area, California. I studied science in college and engineering in graduate school. Now my passion in technology drives me to search a career of sofiware engineer. Yes I love coding.
 
