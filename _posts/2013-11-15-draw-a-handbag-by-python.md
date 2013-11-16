@@ -7,7 +7,7 @@ tags: [python, pygame, drawing]
 ---
 {% include JB/setup %}
 
-I am learning python game buidling from this wonderful [online book](http://inventwithpython.com/pygame/index.html). The very first lesson is to get familiar with the pygame package by drawing primitives on the canvas (the Surface object).
+I am learning python game buidling from this wonderful [online book](http://inventwithpython.com/pygame/index.html). The very [first lesson] (http://inventwithpython.com/pygame/chapter2.html) is to get familiar with the pygame package by drawing primitives on the canvas (the Surface object).
 
 Instead of randomly drawing lines and strokes here and there, I assemble a simple object, a handbag, by a combination of primitives:
 - Polygons
@@ -19,7 +19,7 @@ as shown below.
 
 Notice the partial overlapping of the primitives. Copy a primitive and horizonally translate the copy by several pixels. The uncovered part of the copies mimics the 3D effect and gives the 2D surface some depth. 
 
-Fun, isn't it? The code is here, based on the [tutorial](http://inventwithpython.com/pygame/chapter2.html)
+Fun, isn't it? The code is here.
 
 <pre><code>
 import pygame, sys
@@ -59,5 +59,5 @@ while True:
     pygame.display.update()
 </code></pre>
 
-
+A .jpg image was saved before the program exits.
 
