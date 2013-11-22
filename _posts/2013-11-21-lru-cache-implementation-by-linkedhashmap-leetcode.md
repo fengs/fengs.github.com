@@ -2,7 +2,7 @@
 layout: post
 title: "LRU Cache Implementation by LinkedHashMap - Leetcode"
 description: ""
-category: "algorithm"
+category: ""
 tags: [leetcode, java, LRU cache, algorithm]
 ---
 {% include JB/setup %}
