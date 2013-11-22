@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LRU Cache Implementation by LinkedHashMap [Leetcode]"
+title: "LRU Cache Implementation by LinkedHashMap - Leetcode"
 description: ""
 category: "algorithm"
 tags: [leetcode, java, algorithm, LRU cache]
@@ -10,11 +10,11 @@ tags: [leetcode, java, algorithm, LRU cache]
 Currently **LRU Cache** is among the top three least acceptance problems on leetcode, after **Word Ladder II** and **Valid Number**. It is described as follows:
 
 > "Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
-> 
-> 
-> get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
-> 
 >  
+>  
+> get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+>  
+>   
 > set(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item."
 
 In designing the data structure, a few ideas come to mind: 
@@ -41,7 +41,7 @@ Considering both, [LinkedHashMap] (http://docs.oracle.com/javase/7/docs/api/java
 
 LinkedHashMap is exactly invented to do this piece of work, isn't it? It's almost too good to be true, except it is. What is left behind, oh the *capacity*. Cache has limited size, we must remove the least recently used entry in *set()* if the *size()* is alarming. The bad news is LinkedHashMap only implements the Map interface but not the List interface. It is not a LinkedList, either. Therefore there is no removeLast() or any method like that. We can remove the last element by brutal force but it will kill the O(1) complexity we tried so hard to accomplish.
 
-I just saved the good news till the last: scrolling down the [documentation] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html#removeEldestEntry(java.util.Map.Entry)) there appears a *removeEldestEntry* method.
+I just saved the good news till the last: scrolling down the [documentation] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html#removeEldestEntry(java.util.Map.Entry) there appears a *removeEldestEntry* method.
 
 > protected boolean removeEldestEntry(Map.Entry&lt;K,V&gt; eldest)
 > 
@@ -49,7 +49,7 @@ I just saved the good news till the last: scrolling down the [documentation] (ht
 > Returns true if this map should remove its eldest entry. This method is invoked by put and putAll after inserting a new entry into the map. It provides the implementor with the opportunity to remove the eldest entry each time a new one is added. This is useful if the map represents a cache: it allows the map to reduce memory consumption by deleting stale entries.
 
 
-It's sometimes(always) rewarding to read the documentation. What it says is basicly the method is invoked by put() or putAll() as needed. It automatically removes the eldest (the last) entry when removeEldestEntery returns true. See, the method is *protected*. You are not supposed to remove the eldest entry manually. Via this trick we can implement a fixed size LinkedHashMap by extending it.
+It's sometimes (always) rewarding to read the documentation. What it says is basicly the method is invoked by put() or putAll() internally as needed. The eldest (the last) entry is automatically removed when put() or putall() refers to removeEldestEntery and if it returns true. See, the method is *protected*. You are not supposed to do the removal manually. Via this trick we can implement a fixed size flavor of LinkedHashMap by extending it.
 
     import java.util.LinkedHashMap;
 
