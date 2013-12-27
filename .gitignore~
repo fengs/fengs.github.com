@@ -1,6 +1,8 @@
 _site/*
 _theme_packages/*
 
+jekyll-bootstrap/
+
 _posts/*~
 
 Thumbs.db
