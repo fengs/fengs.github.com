@@ -3,6 +3,9 @@ _theme_packages/*
 
 jekyll-bootstrap/*
 
+*.md~
+*.html~
+
 _posts/*~
 
 Thumbs.db
