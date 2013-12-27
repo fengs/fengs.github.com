@@ -6,21 +6,22 @@ tagline: Sophia Feng Blog
 
 ![] (https://raw.github.com/fengs/fengs.github.com/master/Fig/InfiniteLoop.png) 
 
-Welcome to my site! Nice to meet you here. I just started blogging on GitHub. It's so much fun. I used to take notes in Evernote recording procedures for later references and writing digests to summarize thoughts. Blogging is another way of note-taking, only focused on technical topics. I blog to encourage myself learn. It also makes the infinite loop more enjoyable. 
+Welcome to my site! Nice to meet you here. I just started blogging on GitHub. It's so much fun. I used to take notes on Evernote recording procedures for later references and writing digests to summarize thoughts. Blogging is another way of note-taking, only focused on technical topics. I blog to encourage myself learn. It also makes the infinite loop more enjoyable. 
 
 ## One Infinite Loop
 "Weariness that wants to reach the ultimate with one leap, with a 
 death-leap; a poor ignorant weariness, unwilling even to will any longer:
 that created all gods and afterworlds." - Thus spoke Zarathustra.
 
-I like this quote of Nietzsche. But don take the ancient prophet's words literally. One death-leap that can end all cases will be a modern man's daydreaming. We're practically death-leaping after death-leaping driven by deadlines after deadlines. No rest for the wicked, and not much for the virtue.
+I like this quote of Nietzsche. But don't take the ancient prophet's words literally. One death-leap that can end all cases will be a modern man's daydreaming. We're practically death-leaping after death-leaping driven by deadlines after deadlines. No rest for the wicked, and not much for the virtue.
 
 However, we are not condemned to ceaselessly roll a rock and laboring in vain. We get somewhere. We've improved ourselves through every new task:
+
 - new skills acquired√.
 - new knowledge absorbed√.
 - new experience accomplished√.
 
-which leaves us in a far better place than Sisyphus. Lucky enough, we live in the best era ever: NOW. With millions of opensources we are free to learn almost whatever we want. Education is still luxuries but there are alternative options. Verily, verily I applaud it. For this infinite loop
+which leaves us in a far better place than Sisyphus. Lucky enough, we live in the best era ever: NOW. With millions of opensources we are free to learn almost whatever we want. Education is still luxury but there are alternatives. I sing praise for our time. And verily, verily I applaud this infinite loop
 <pre><code>while alive:
     learn
     produce
