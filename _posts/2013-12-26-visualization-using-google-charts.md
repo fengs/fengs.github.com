@@ -9,8 +9,8 @@ tags: [javascript, queries, visualization, google charts, diet, health]
 {% include JB/setup %}
 
 I have been shedding some pounds since November, about the same time as I launched this blog. My approach is pretty straightforward:
-- Cutting off carbonhydrages.
-- Running for an hour every day.
+- Cutting off carbonhydrages. 
+- Running for an hour every day. 
 
 And it works for me. It feels awesome to see the scale drop and pants become loose. There are controversies with regard to the low-carb diet, which I'm not going into details about. Just for this specific scenario, what if I'd like to visualize my progress, and blog it by the way.
 
@@ -111,7 +111,9 @@ Compared with hard-coding data, the difference is only a few lines:
     // Send the query with a callback function.
     query.send(handleQueryResponse);
 
-'select A, B' is a SQL statement without FROM, which fetches Column A and B of the spreadsheet. The rest is self explanory. Pretty cool huh. New skill get√.
+'select A, B' is a SQL statement without FROM, which fetches Column A and B of the spreadsheet. The rest is self explanory. 
+
+Pretty cool huh. New skill get√. There are pie charts, geography intensity charts, 3D plot, a bunch of cool stuff. Cannot get bored.
 
 A few more words on running javascript on Jekyll. Just pay attention to:
 1. Markdown is white-space sensitive, align &lt;scripts&gt;&lt;/scripts&gt; properly and eliminate unnecessary spaces.

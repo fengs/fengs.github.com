@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Visualization Using Google Charts"
+title: "Visualization and Queries Using Google Charts"
 description: ""
 category: "technical"
-tags: [javascript, visualization, google charts, diet, health]
+tags: [javascript, queries, visualization, google charts, diet, health]
 
 ---
 {% include JB/setup %}
