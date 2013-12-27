@@ -3,9 +3,8 @@ layout: page
 title: One Infinite Loop
 tagline: Sophia Feng Blog
 ---
-![] (./../Fig/InfiniteLoop.png) 
 
-   
+![] (https://raw.github.com/fengs/fengs.github.com/master/Fig/InfiniteLoop.png) 
 
 Welcome to my site! Nice to meet you here. I just started blogging on GitHub. It's so much fun. I used to take notes in Evernote recording procedures for later references and writing digests to summarize thoughts. Blogging is another way of note-taking, only focused on technical topics. I blog to encourage myself learn. It also makes the infinite loop more enjoyable. 
 
