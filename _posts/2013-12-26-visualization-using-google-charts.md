@@ -26,42 +26,51 @@ Take a look at this **Column Chart**, which looks very similar to a histogram ch
 </script>
 
 <script type="text/javascript">
-  google.load("visualization", "1", {packages:["corechart"]});
-  google.setOnLoadCallback(drawChart);
-  function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-  ['Date', 'Weight'],
-  ['11/7/2013', 162],
-  ['11/17/2013', 158],
-  ['11/27/2013', 154],
-  ['12/1/2013', 152],
-  ['12/6/2013', 150],
-  ['12/15/2013', 148],
-  ['12/18/2013', 147],
-  ['12/21/2013', 146],
-  ['12/24/2013', 145],	
-  ['12/26/2013', 145]]);
-
-  var options = {
-        title: "Weight History",
-        width: 600,
-        height: 500,
-        'is3D':true,
-        bar: {groupWidth: "30%"},
-        legend: { position: "none" },
-  };
-
-  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
-  chart.draw(data, options);
-  }
+   google.load("visualization", "1", {packages:["corechart"]});
 </script>
 
-<div id="chart_div">
+<script type="text/javascript">
+  var visualization;
+
+  function drawVisualization() {
+    // To see the data that this visualization uses, browse to
+    // http://spreadsheets.google.com/ccc?key=pCQbetd-CptGXxxQIG7VFIQ
+    var query = new google.visualization.Query(
+      'https://docs.google.com/spreadsheet/ccc?key=0AiA3av6cH1otdHlUMGQxcDhHOU0xX004QV9DWmlESGc&usp=sharing');
+    query.setQuery('select A, B');
+  
+    // Send the query with a callback function.
+    query.send(handleQueryResponse);
+  }
+  
+  function handleQueryResponse(response) {
+    if (response.isError()) {
+    alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+    return;
+    }
+  
+    var data = response.getDataTable();
+    var options = {
+    title: "Weight History",
+    width: 700,
+    height: 500,
+    bar: {groupWidth: "50%"},
+    legend: { position: "none" },
+    };
+    visualization = new google.visualization.ColumnChart(document.getElementById('visualization'));
+    visualization.draw(data, options);
+  }
+  
+
+  google.setOnLoadCallback(drawVisualization);
+</script>
+
+<div id="visualization">
 </div>
 
-The data was hardcoded into the scripts. Believe me, I tried very hard not to do this but to use a query to get 'real-time' updated ones. Use query to populate data is no doubt the right way to do things. 
+The data was not hard-coded into the scripts. Queries are sent to get the 'real-time' updated data in the table to keep the monitoring going. Say I'll add an entry later this week if the scale drops again (I wish). The insertion will be reflected in the current fetch. Use query to populate data is no doubt the right way to do things. Hard-coding NO. 
 
-Here is how to use query to draw google charts. First, you need a table, say a google spreadsheet. Like this one I just created.
+Here is how to query to draw google charts. First, you need a table, say a google spreadsheet. Like this one I just created.
 
 ![] (https://raw.github.com/fengs/fengs.github.com/master/Fig/google_spreadsheet.png)
 
