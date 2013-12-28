@@ -14,7 +14,7 @@ I have been shedding some pounds since November, about the same time as I launch
 
 And it works for me. It feels awesome to see the scale drop and pants become loose. There are controversies with regard to the low-carb diet, which I'm not going into details about. Just for this specific scenario, what if I'd like to visualize my progress, and blog it by the way.
 
-The [matplotlib] (http://matplotlib.org/) of Python is a first try. But I googled something better. Yup, the [Google Chars] (https://developers.google.com/chart/?hl=fr). Not only because it is *very* pretty, but also for the interactive capability of Javascript. 
+The [matplotlib] (http://matplotlib.org/) of Python is a first try. But I googled something better. Yup, the [Google Charts] (https://developers.google.com/chart/?hl=fr). Not only because it is *very* pretty, but also for the interactive capability of Javascript. 
 
 Take a look at this **Column Chart**, which looks very similar to a histogram chart but it does not deal with bins or frequencies. It is just a basic plot with bars instead of dots and lines. If you hover the mouse over one of the bars, the corresponding date automatically displays. Nice job, Google!
 
@@ -117,14 +117,14 @@ Pretty cool huh. New skill get√. There are pie charts, geography intensity cha
 
 A few more words on running javascript on Jekyll. Just pay attention to:
 1. Markdown is white-space sensitive, align &lt;scripts&gt;&lt;/scripts&gt; properly and eliminate unnecessary spaces.
-2. Each &lt;scripts&gt;&lt;/scripts&gt; must be seperated by a blank line, otherwise the latter wont't executed. The same rule applies to &lt;divs&gt;&lt;/div&gt; and other blocks.
+2. Each &lt;script&gt;&lt;/script&gt; must be seperated by a blank line, otherwise the latter wont't executed. The same rule applies to &lt;div&gt;&lt;/div&gt; and other blocks.
 3. Ampersand is NOT allowed in code block, even in url you have to escape it by `&amp;`.
 
 Or, just rake a empty post and try Hello World.
 
     <script>
         alert("Hello World!");
-    <scripts>
+    <script>
 
 You'll figure out. 
 
