@@ -22,10 +22,11 @@ However, we are not condemned to ceaselessly roll a rock and laboring in vain. W
 - new experience accomplished√.
 
 which leaves us in a far better place than Sisyphus. Lucky enough, we live in the best era ever: NOW. With millions of opensources we are free to learn almost whatever we want. Education is still luxury but there are alternatives. I sing praise for our time. And verily, verily I applaud this infinite loop
-<pre><code>while alive:
-    learn
-    produce
-</code></pre>
+
+    while alive:
+        learn
+        produce
+
 
 Learn, produce and improve, I cannot think of a life happier than this. 
 
