@@ -11,18 +11,18 @@ Upon familiarity with the pygame framework, the next step is to add some animati
 
 I decided to try something fun, something physics. An object moving on canvas is confined by the boundaries. How about some elastic collision? Back in high school, I did so many physics problems on collision that I can call this equation right off the top of my head:
 
-![] (http://upload.wikimedia.org/math/a/b/6/ab6645eaf09c6da1ba47b0f662615140.png)
-![] (http://upload.wikimedia.org/math/e/0/f/e0fa187fc3065bad45710620be5f7687.png)
+![](http://upload.wikimedia.org/math/a/b/6/ab6645eaf09c6da1ba47b0f662615140.png)
+![](http://upload.wikimedia.org/math/e/0/f/e0fa187fc3065bad45710620be5f7687.png)
 
 In a simplified case, when a perfectly elastic ball hits a rigid surface, it retains its kinetic energy and reflects away from the surface. Like reflection of light, the velocity component parallel to the surface stays unchanged, and the velocity component perpendicular to the surface turns back. 
 
 Conservation of energy sounds more interesting than a cat lost in a rectangle. First I draw a 500 X 300 pixel pool table as canvas. 
 
-![] (https://raw.github.com/fengs/Python-Game/master/Fig/PoolTable.png)
+![](https://raw.github.com/fengs/Python-Game/master/Fig/PoolTable.png)
 
 ↑ It is drawn in Adobe Illustrator. Next is a 26 X 26 pixel billiard ball
 
-![] (https://github.com/fengs/Python-Game/raw/master/Fig/BilliardBall.png)
+![](https://github.com/fengs/Python-Game/raw/master/Fig/BilliardBall.png)
 
 The ball might be invisible on a white background:( but it is there :)
 
@@ -56,7 +56,7 @@ Tick the clock.
 
 The recorded animation is here:
 
-![] (https://github.com/fengs/Python-Game/raw/master/BilliardBall/BilliardBall.gif)
+![](https://github.com/fengs/Python-Game/raw/master/BilliardBall/BilliardBall.gif)
 
 Full code is available on [Github] (https://github.com/fengs/Python-Game/blob/master/BilliardBall/BilliardBall.py).
 I'll try adding sound effects and music to the games when I find suitable audio files :) Cannot wait for the next project.
