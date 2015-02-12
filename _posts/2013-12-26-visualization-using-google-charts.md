@@ -72,9 +72,9 @@ The data was not hard-coded into the scripts. Queries are sent to get the 'real-
 
 Here is how to query to draw google charts. First, you need a table, say a google spreadsheet. Like this one I just created.
 
-![] (https://raw.github.com/fengs/fengs.github.com/master/Fig/google_spreadsheet.png)
+![](https://raw.github.com/fengs/fengs.github.com/master/Fig/google_spreadsheet.png)
 
-Make sure not to set the visibility as private. With the [link] (https://docs.google.com/spreadsheet/ccc?key=0AiA3av6cH1otdHlUMGQxcDhHOU0xX004QV9DWmlESGc&usp=sharing#gid=0) of the spreadsheet we are good to go to the next step.
+Make sure not to set the visibility as private. With the [link](https://docs.google.com/spreadsheet/ccc?key=0AiA3av6cH1otdHlUMGQxcDhHOU0xX004QV9DWmlESGc&usp=sharing#gid=0) of the spreadsheet we are good to go to the next step.
 
     <script type="text/javascript">
     var visualization;
