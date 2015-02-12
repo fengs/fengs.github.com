@@ -15,7 +15,7 @@ Instead of randomly drawing lines and strokes here and there, I assemble a simpl
 - Ellipse
 as shown below.
 
-![] (https://github.com/fengs/Python-Game/raw/master/Fig/Handbag.jpg)
+![](https://github.com/fengs/Python-Game/raw/master/Fig/Handbag.jpg)
 
 Notice the partial overlapping of the primitives. Copy a primitive and horizonally translate the copy by several pixels. The uncovered part of the copies mimics the 3D effect and gives the 2D surface some depth. 
 
