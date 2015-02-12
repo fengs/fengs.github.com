@@ -14,7 +14,7 @@ I have been shedding some pounds since November, about the same time as I launch
 
 And it works for me. It feels awesome to see the scale drop and pants become loose. There are controversies with regard to the low-carb diet, which I'm not going into details about. Just for this specific scenario, what if I'd like to visualize my progress, and blog it by the way.
 
-The [matplotlib] (http://matplotlib.org/) of Python is a first try. But I googled something better. Yup, the [Google Charts] (https://developers.google.com/chart/?hl=fr). Not only because it is *very* pretty, but also for the interactive capability of Javascript. 
+The [matplotlib](http://matplotlib.org/) of Python is a first try. But I googled something better. Yup, the [Google Charts](https://developers.google.com/chart/?hl=fr). Not only because it is *very* pretty, but also for the interactive capability of Javascript. 
 
 Take a look at this **Column Chart**, which looks very similar to a histogram chart but it does not deal with bins or frequencies. It is just a basic plot with bars instead of dots and lines. If you hover the mouse over one of the bars, the corresponding date automatically displays. Nice job, Google!
 
