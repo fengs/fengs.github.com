@@ -6,7 +6,7 @@ tagline: Sophia Feng Blog
 
 ![](Fig/InfiniteLoop.png) 
 
-Welcome to my site! Nice to meet you here. I just started blogging on GitHub. It's so much fun. I used to take notes on Evernote recording procedures for later references and writing digests to summarize thoughts. Blogging is another way of note-taking, only focused on technical topics. I blog to encourage myself learn. It also makes the infinite loop more enjoyable. 
+Welcome to my site! Nice to meet you here. I just started blogging on GitHub. It's so much fun. I used to take notes on Evernote recording procedures for later references and writing digests to summarize thoughts. Blogging is another way of note-taking, only focused on technical topics. I blog to encourage myself to learn. It also makes the infinite loop more enjoyable. 
 
 ## One Infinite Loop
 "Weariness that wants to reach the ultimate with one leap, with a 

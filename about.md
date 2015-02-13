@@ -12,8 +12,8 @@ This site records my progress towards the goal of becoming a software engineer. 
 
 ## Elsewhere
 You can also find me in
-- [LinkedIn] (http://www.linkedin.com/in/sophiashifeng) - Professional profile
-- [GitHub] (https://github.com/fengs) - Code, expanding
+
+- [GitHub] (https://github.com/fengs) - Code and projects
 - [Flickr] (http://www.flickr.com/photos/39334424@N07/) - Selected paintings
 
 
